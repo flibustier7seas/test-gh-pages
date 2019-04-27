@@ -909,7 +909,7 @@ class VideoReactExample extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponen
             const { subtitlesFile, videoFile } = this.state;
             return (react__WEBPACK_IMPORTED_MODULE_0__["createElement"]("div", { className: _VideoReactExample_scss__WEBPACK_IMPORTED_MODULE_6___default.a["video-player__control-panel"] },
                 react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TextField"], { disabled: true, className: _VideoReactExample_scss__WEBPACK_IMPORTED_MODULE_6___default.a["video-player__control-item"], value: videoFile ? videoFile.name : "", helperText: react__WEBPACK_IMPORTED_MODULE_0__["createElement"](modules_localize__WEBPACK_IMPORTED_MODULE_5__["Localize"], { id: "videoPlayer:video" }), InputProps: {
-                        startAdornment: (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](modules_button__WEBPACK_IMPORTED_MODULE_1__["UploadButton"], { accept: ".mp4", maxLength: 1, onUpload: this.handleVideoUpload, component: _material_ui_core__WEBPACK_IMPORTED_MODULE_3__["IconButton"] },
+                        startAdornment: (react__WEBPACK_IMPORTED_MODULE_0__["createElement"](modules_button__WEBPACK_IMPORTED_MODULE_1__["UploadButton"], { accept: ".mp4,.mkv", maxLength: 1, onUpload: this.handleVideoUpload, component: _material_ui_core__WEBPACK_IMPORTED_MODULE_3__["IconButton"] },
                             react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_material_ui_icons_Attachment__WEBPACK_IMPORTED_MODULE_4___default.a, null))),
                     } }),
                 react__WEBPACK_IMPORTED_MODULE_0__["createElement"](_material_ui_core__WEBPACK_IMPORTED_MODULE_3__["TextField"], { disabled: true, className: _VideoReactExample_scss__WEBPACK_IMPORTED_MODULE_6___default.a["video-player__control-item"], value: subtitlesFile ? subtitlesFile.name : "", helperText: react__WEBPACK_IMPORTED_MODULE_0__["createElement"](modules_localize__WEBPACK_IMPORTED_MODULE_5__["Localize"], { id: "videoPlayer:subtitle" }), InputProps: {
@@ -1949,4 +1949,4 @@ module.exports = __webpack_require__(/*! ./src/index */"./src/index.tsx");
 /***/ })
 
 },[[0,"manifest","vendor"]]]);
-//# sourceMappingURL=app.3270c0bf723bb343c809.js.map
+//# sourceMappingURL=app.6ecaf1e2b9934a774af1.js.map
